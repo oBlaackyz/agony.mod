@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[48,)"
+license="All Rights Reserved"
+[[mods]]
+modId="farmdmz"
+version="1.5.23"
+displayName="Steel Client"
+logoFile="assets/farmdmz/textures/gui/brand/avatar.png"
+logoBlur=false
+authors="Paulo"
+description='''Painel com Trigo, Sala do Tempo e Peixe independentes. Quando combinadas, as funções coordenam suas ações e priorizam o Trigo pronto.'''
+displayTest="IGNORE_ALL_VERSION"
+[[dependencies.farmdmz]]
+modId="forge"
+mandatory=true
+versionRange="[48.1.0,49)"
+ordering="NONE"
+side="CLIENT"
+[[dependencies.farmdmz]]
+modId="autofishdmz"
+mandatory=true
+versionRange="[1.1.1]"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.farmdmz]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.2,1.20.3)"
+ordering="NONE"
+side="CLIENT"
